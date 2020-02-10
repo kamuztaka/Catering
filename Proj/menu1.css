@@ -1,0 +1,985 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.header{
+    position: absolute;
+    border: 3px solid maroon;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: maroon;
+}
+
+p{
+    font-family: 'arial black';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 0;
+}
+
+input[name="home"]{
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid maroon;
+    background: rgb(146, 75, 75);
+    top: 13px;
+    cursor: pointer;
+}
+
+.box-1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 3%;
+    top: 17%;
+}
+
+img[name="adobo"]{
+    height: 200px;
+    width: 200px;
+}
+
+.label-1{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+.label-1:before{
+    content:"Pork Adobo";
+}
+
+input[name="back"]{
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid maroon;
+    background: rgb(146, 75, 75);
+    top: 13px;
+    left: 90%;
+    cursor: pointer;
+}
+
+.box-2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 23%;
+    top: 17%;
+}
+
+img[name="caldereta"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-2{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-2:before{
+    content: "Pork Caldereta";
+}
+
+.box-3{
+    position: absolute;
+    width: 200px;
+    height:  200px;
+    border: 3px solid black;
+    left: 43%;
+    top: 17%;
+}
+
+img[name="mechado"]{
+    height: 200px;
+    width:  200px;
+}
+
+#label-3{
+    position: absolute;
+    height: 30px;
+    width:  200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height:  25px;
+    color: white;
+    top: 85%;
+}
+
+#label-3:before{
+    content: "Beef Mechado";
+}
+
+.box-4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 63%;
+    top: 17%;
+}
+
+img[name="chickencurry"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-4{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-4:before{
+    content: "Chicken Curry";
+}
+
+.box-5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 83%;
+    top: 17%;
+}
+
+img[name="beefsteak"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-5{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-5:before{
+    content: "Beefsteak";
+}
+
+.box-6{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 3%;
+    top: 60%;
+}
+
+img[name="chickenalamax"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-6{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-6:before{
+    content: "Chicken Ala Max";
+}
+
+.box-7{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 23%;
+    top: 60%;
+}
+
+img[name="chopsuey"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-7{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-7:before{
+    content: "Chopsuey";
+}
+
+.box-8{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 43%;
+    top: 60%;
+}
+
+img[name="pinakbet"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-8{
+    position: absolute;
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-8:before{
+    content: "Pinakbet";
+}
+
+.box-9{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 63%;
+    top: 60%;
+}
+
+img[name="sinigang"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-9{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-9:before{
+    content: "Sinigang na Baboy"
+}
+
+.box-10{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    left: 83%;
+    top: 60%;
+}
+
+img[name="tinola"]{
+    height: 200px;
+    width: 200px;
+}
+
+#label-10{
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    border: 2px rgba(0, 0, 0, 0.5);
+    top: 85%;
+    background-color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+#label-10:before{
+    content: "Tinolang Manok";
+}
+
+#bg-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#overlay{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.btnadobo{
+    background: seagreen;
+    border: seagreen;
+    position: absolute;
+    left: 46%;
+    top: 52%;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+.btnadobo:hover{
+    background: yellowgreen;
+    cursor: pointer;
+}
+
+.adobomodal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.adobo-content{
+    background: #d8ead4;
+    height: 500px;
+    width: 300px;
+    position: relative;
+    left: 39%;
+    top: 8%;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #a6a6a6;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: white;
+}
+
+.close1{
+    font-size: 30px;
+    color: black;
+    float: right;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.close1:hover{
+    color: red;
+    text-decoration: none;
+}
+
+p1{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    left: 20%;
+    top: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+}
+
+input[name="value-1"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 90px;
+    left: 9px
+}
+
+input:checked[name="value-1"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-1"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-1"]:before
+{
+    left: 20px;
+}
+
+p2{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 40%;
+}
+
+input[name="value-2"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 48%;
+    left: -30%;
+}
+
+input:checked[name="value-2"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-2"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-2"]:before
+{
+    left: 20px;
+}
+
+p3{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 70%;
+}
+
+input[name="value-3"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 77%;
+    left: 9px;
+}
+
+input:checked[name="value-3"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-3"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-3"]:before
+{
+    left: 20px;
+}
+
+p4{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 100%;
+}
+
+input[name="value-4"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    left: 10px;
+    top: 107%;
+}
+
+input:checked[name="value-4"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-4"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-4"]:before
+{
+    left: 20px;
+}
+
+p5{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 130%;
+}
+
+input[name="value-5"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 138%;
+    left: 10px;
+}
+
+input:checked[name="value-5"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-5"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-5"]:before
+{
+    left: 20px;
+}
+
+p6{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 160%;
+}
+
+input[name="value-6"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 167%;
+    left: 10px;
+}
+
+input:checked[name="value-6"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-6"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-6"]:before
+{
+    left: 20px;
+}
+
+p7{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 190%;
+}
+
+input[name="value-7"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 198%;
+    left: 10px;
+}
+
+input:checked[name="value-7"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-7"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-7"]:before
+{
+    left: 20px;
+}
+
+p8{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 220%;
+}
+
+input[name="value-8"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 227%;
+    left: 10px;
+}
+
+input:checked[name="value-8"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-8"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-8"]:before
+{
+    left: 20px;
+}
+
+p9{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 250%;
+}
+
+input[name="value-9"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 257%;
+    left: 10px;
+}
+
+input:checked[name="value-9"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-9"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-9"]:before
+{
+    left: 20px;
+}
+
+p10{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'arial black';
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    line-height: 46px;
+    left: 20%;
+    top: 280%;
+}
+
+input[name="value-10"]{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: .5s;
+    top: 48%;
+    left: 10px;
+    top: 287%;
+}
+
+input:checked[name="value-10"]
+{
+    background: #03a9f4;
+}
+
+input[name="value-10"]:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[name="value-10"]:before
+{
+    left: 20px;
+}
+
+input[name="order"]{
+    position: absolute;
+    border: none;
+    background: green;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    top: 305%;
+    right: 30px;
+}
+
+input[name="order"]:hover{
+    background: #2ECC71;
+}

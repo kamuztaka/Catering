@@ -1,0 +1,192 @@
+html body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    background: maroon;
+    bottom: 15%;
+}
+
+#navbar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #333;
+    background: #333;
+    z-index: 1;
+}
+
+#navbar ul{
+    list-style: none;
+    margin: 0;
+}
+
+#navbar ul li{
+    background: #333;
+    width: 150px;
+    border-right: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    color: white;
+    font-size: 18px;
+}
+
+#navbar ul ul{
+    display: none;
+}
+
+#navbar ul li:hover > ul{
+    display: block;
+}
+
+#navbar li:hover{
+    background: black;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    font-size: 50px ;
+    font-family: 'Bree Serif', serif;
+    top: 50px;
+    left: 10%;
+    color: white;
+}
+
+p{
+    position: absolute;
+    top: 25%;
+}
+
+p1{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-family: 'bree serif', serif;
+    font-size: 22px;
+    color: white;
+}
+
+p2{
+    position: absolute;
+    top: 90%;
+    right: 15%;
+    color: white;
+    font-family: 'bree serif', serif;
+    font-size: 22px;
+}
+
+.end{
+    position: absolute;
+    height: 30px;
+    width: 1000px;
+    border-bottom: 1px solid white;
+    top: 130%;
+    left: 10%;
+}
+
+.box{
+    position: absolute;
+    width:  900px;
+    height:500px;
+    top: 155%;
+    left: 15%;
+    background: white;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: #929191;
+    top: 250%;
+    left: 0;
+}
+
+.fname{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    top: 15%;
+    left: 10%;
+}
+
+.lname{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    top: 15%;
+    left: 52%;
+}
+
+.email{
+    position: absolute;
+    height: 30px;
+    width: 728px;
+    font-size: 20px;
+    top: 25%;
+    left: 10%;
+}
+
+.feedback{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    height: 200px;
+    width: 728px;
+    font-size: 15px;
+}
+
+p3{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'bree serif', serif;
+    top: 10px;
+    left: 40%;
+}
+
+button{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    border: none;
+    background: green;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+button:active{
+    color: white;
+}
+
+p4{
+    position: absolute;
+    font-size: 45px;
+    left: 40%;
+    top: 25%;
+}
+
+p5{
+    position: absolute;
+    font-size: 45px;
+    top: 25%;
+    left: 45%;
+}
+
+p6{
+    position: absolute;
+    font-size: 48px;
+    top: 25%;
+    left: 50%;
+}

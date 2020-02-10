@@ -1,0 +1,210 @@
+body{
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    background: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+p{
+    font-family: 'arial black';
+    font-size: 30px;
+    text-align: center;
+    line-height: 15px;
+}
+
+input[name="homeBtn"]{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: gray;
+    font-size: 15px;
+    left: 5%;
+    top: 17px;
+}
+
+input[name="homeBtn"]:hover{
+    background: #D0D3D4;
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+    height: 75px;
+    width: 50%;
+    background: yellow;
+    top: 20%;
+    text-align: center;
+    left: 25%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.set-1{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 250px;
+    left: 5%;
+    z-index: -1;
+}
+
+p1{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.set-2{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 250px;
+    left: 40%;
+    z-index: -1;
+}
+
+p3{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.set-3{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 250px;
+    right: 5%;
+    z-index: -1;
+}
+
+p5{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.set-4{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 650px;
+    left: 5%;
+    z-index: -1;
+}
+
+p7{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.set-5{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 650px;
+    left: 40%;
+    z-index: -1;
+}
+
+p9{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.set-6{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    top: 650px;
+    right: 5%;
+    z-index: -1;
+}
+
+p11{
+    font-size: 25px;
+    font-family: 'arial black';
+}
+
+.footer{
+    height: 95px;
+    width: 100%;
+    background: maroon;
+    bottom: -90%;
+    left: 0;
+    margin: 0;
+    position: absolute;
+}
+
+img[name="fb"]{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 40%;
+    top: 10px;
+    cursor: pointer;
+}
+
+img[name="twitter"]{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    left: 46%;
+    top: 19px;
+    cursor: pointer;
+}
+
+img[name="ig"]{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 51%;
+    top: 15px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+#bg{
+    position: absolute;
+    height: 170%;
+    width: 100%;
+    background-image: url("birthday.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -11;
+}
