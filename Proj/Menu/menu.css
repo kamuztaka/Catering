@@ -1,0 +1,46 @@
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #2d2926ff;
+    z-index: -1;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px 3px #888888;
+}
+
+.box:hover{
+    border: solid black;
+    cursor: pointer;
+}
+
+.uno, .dos, .tres{
+    position: absolute;
+    top: 20%;
+}
+
+.uno{
+    position: absolute;
+    left: 15%;
+}
+
+.dos{
+    position: absolute;
+    left: 40%;
+}
+
+.tres{
+    position: absolute;
+    right: 15%;
+}
+
+#image{
+    height: 250px;
+    width: 250px;
+}
